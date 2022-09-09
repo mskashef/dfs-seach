@@ -1,0 +1,31 @@
+{
+  "name": "@mskashef/dfs-search",
+  "version": "1.0.0",
+  "description": "An implementation of DFS algorithm with simple usage.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskashef/dfs-search"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "dfs",
+    "iterat",
+    "iteration",
+    "tree",
+    "traverse",
+    "traversal",
+    "path",
+    "search",
+    "searching",
+    "algorithm",
+    "find"
+  ],
+  "author": "mskashef",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
