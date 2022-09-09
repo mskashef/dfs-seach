@@ -1,6 +1,6 @@
 {
   "name": "@mskashef/dfs-search",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An implementation of DFS algorithm with simple usage.",
   "main": "index.js",
   "repository": {
