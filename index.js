@@ -36,7 +36,7 @@ function dfsSearch(root, config = {}) {
       ...children.map((child) => ({
         self: child,
         // Add parent to the node in order to be able to return back to the root and find the path
-        parent: removeChildren(node.self),
+        parent: {...node, self: removeChildren(node.self)},
       }))
     );
   }
