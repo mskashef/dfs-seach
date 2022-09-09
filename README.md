@@ -80,7 +80,7 @@ The config object which it's default values are:
 | detectTarget   | Function | Receives a node as input param and returns true if this is the node we are looking for. otherwise returns false.                                                                      | (node) => true                                  |
 | getChildren    | Function | Receives a node as input param and returns it's children in a javascript array.                                                                                                       | (node) => []                                    |
 | getUid         | Function | Receives a node as input param and returns a uniq ID for it. This prop is helpful iterating on a Tree which may has multiple same nodes. This function is to prevent iterating them.  | (node) => btoa(encodeURI(JSON.stringify(node))) |
-| removeChildren | Function | Receives a node as input param and returns it after removing its children. This is used when returning result (removes children from the path).                                       |                                                 |
+| removeChildren | Function | Receives a node as input param and returns it after removing its children. This is used when returning result (removes children from the path).                                       |  (node) => node                                               |
 
 ## output:
 The output is an object of shape:
